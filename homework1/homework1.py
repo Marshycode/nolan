@@ -62,40 +62,111 @@ print(10 == 9)
 print(10 <= 9)
 # False, not equal
 print(bool("abc"))
-# True
+# True,filled string
 print(bool(123))
-#True
+#True, argument is true
 print(bool(["apple", "cherry", "banana"]))
- #True
+ #True, complete list
 print(bool(True))
-#True
+#True, true returs true
 print(bool(False))
-#False
+#False, false because directly false
 print(bool(0))
-#False
+#False, zero equates to false
 print(bool(""))
-#False
+#False, empty string creating falsy value
 print(bool(" "))
-#True
+#True string contains a space, therefor true 
 print(bool(()))
-#False
+#False, empty creating a falsy value
 print(bool([]))
-#False
+#False, empty creating a falsy value
 print(bool({}))
-#False
+#False, empty creating a falsy value
 print(bool(True and False))
-#False
+#False, essentialy print false
 print(bool(True and True))
-#True
+#True, true is only argument
 print(bool(False and False))
-#False
+#False, false is only argument
 print(bool(True or False))
-#True
+#True, essentially print true
 print(bool(True or True))
-#True
+#True, only option is true
 print(bool(False or False))
-#False
+#False, false is only argument
 print(bool(not(False)))
-#True
+#True, only other optio is true
 print(bool(not(True)))
-#False
+#False, only other option is false
+# Question 1: When an argument is true, a true is returend, which includes when strings are filled or an answer is objectivley true. 
+# Question 2: The space counted as a string which yeilded a true value. 
+# Question 3: bool("Hello") Returns true since a string is present
+# Question 4: bool ("water", "") Incomplete list so false
+print(10+5) # 15, + performs addition  
+print(10-5) # 5, - performs subtraction
+print(2*4) # 8, * performs multiplication
+print(6/3) # 2, / performs division
+print(5%2) # 1, Returns remainder
+print(3**2) # ** is three to the power of 2
+print(15//2) # // preforms division then rounds
+print(5==2) # == determines equality
+print(10!=10) # returns false 
+print(2<5) # true since 2 is less than 5
+print(12>5) # true since 12 is greatger than 5
+print(5<=6) # true, 5 is less than or equal to six
+print(1>=10) # 1 is less than or equal to 10
+x=5
+x += 5
+print(x) # added five
+x-=4
+print (x) #subtracted four
+x*=3
+print (x) # multiplied by three
+# 1) an and operand returns true only if both conditions are true, 2=5 and 5=5 would return false but 2=2 and 5=5 would be true
+# 2) or checks if at least one condition is true so 2=5 or 5=5 would be true and 2=5 or 2=3 would be false
+# 3) the not operator inverts a true to false so 5=10 is true and 10=10 is false
+# More Questions:
+# 1: / divides and // rounds the answer
+# 2: % gives remainder and // gives answer rounded
+# 3: % so 4%5 would give the remainder of 4/5
+# 4: assignment operators stor values given to vairables
+my_string="hello"
+print(my_string) # Prints: hello
+print (my_string[0])# prints h 
+print (my_string[1])# prints e
+print (my_string[2])#prints l
+print (my_string[3])#prints l
+print (my_string[4])#prints o
+print (my_string[-1])# prints o
+print (my_string[1:3])# prints el
+print (my_string[0:5:2])# prints hlo
+print(len(my_string))# pritns 5
+print (my_string+"goodbye")#prints hellogoodbye
+print (7*my_string)# prints hello seven times 
+# slicing extracs a specific portion of a string, any manipulations where specific parts of the string were separated
+name="Oski"
+print ("Hello my name is", name)
+print(f"Hello, my name is {name}")
+# and f string is inerted into the second manipulation wich is a more conscise formatiting way to embed expressions into a string
+# cd is change directory and it allows you to switch into a file such as cd nolan
+#ls lists everything in a file, when in file nolan, call ls to list 
+# ls -a shows hidden files, call ls -a to list all files and hidden files in a directory
+#  mkdir makes a directrory, mkdir nolan
+# cat prints a file, cat nolan.txt
+#pwd prints the working directory and tells you where you are, just type pwd in terminal
+# 
+# 
+# cd ∼ returnst to home directory, ex cd ∼
+# cp copys a file, ex: cp nolan 
+# mv moves a file mv nolan desktop ex: 
+# rm removes files or directories ex: rm nolan
+# clear clears the terminal, ex: clear
+# grep stands for global regular expression print ex: grep [options] pattern [file...]
+# git add, adds a file to the worktree, git add [file]
+# git status, tells status of worktree when in git folder git status
+# git commit, saves file to external cloud after on worktree, git commit [file]
+# ls -a shows even hidden files
+# a hidden file is not shown under a rgular list
+# -l shows detailed information, git --version shows installed version, wc -l counts number of lines in a file
+# flags are add ons to base commands
