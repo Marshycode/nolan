@@ -1,0 +1,26 @@
+1. List 5 topics related to astronomy, physics, technology, science or math that sound interesting
+to you.
+ - I am interested in composition of the lunar surface.
+ - The application of nutrient production in space through fungal or bacterial means. 
+ - Difference between radiation levels on Earth and Mars. 
+ - How the results of Navier-Stokes approximations would differ on a rocket launch from Earth vs. Mars. 
+ - Compositions of near earth orbiting astriods and possibility of mining. 
+2. For three of these topics, find a dataset, tool, news article, or paper online that relates to it.
+https://eyes.nasa.gov/apps/asteroids/#/home is a application that contains many near earth astroids and list properties such as current velocity and key statistics. 
+https://ntrs.nasa.gov/api/citations/20230016620/downloads/abstract_v06.pdf This research paper compares the results of areodynamics of supersonic Retropropulsion on mars. Using a similer paper on Retropropulsion on earth, a comparison of computational fluid dynamics could e created. 
+https://pmc.ncbi.nlm.nih.gov/articles/PMC10742821/ explains the bio-functional properties of fungal protines. This idea could be taken and applied to different fungal species to create a nutritional value map of fungus usable in space. 
+
+Summarize how each source relates to the topic in your own words.
+3. Choose one topic and brainstorm how you could Python skills (loops, conditionals, functions,
+lists/dictionaries, github, version control) to explore, analyze or create something with it.
+Asteriod 16 psyche is an extremely interesting target for possible investigation and mining.  It is currently classified near earth orbit. A project could use data from a couple of these near orbit astroids and find optimal launch windows from earth to send a probe or automated mining vessle. By taking taking the speed of a rocket launched from earth, using for loops and calculating trjetory, the program could take into account using if staments when and where the astroid is and what would be an optimal launch window. 
+
+4. Write down at least two possible project ideas connected to your topic. One should be
+ambitious (a “dream” version) and the other should be smaller, simpler version that you
+could realistically finish in a few weeks.
+
+The big dream version is a full on graphical simulation of finding an optimal launch window for one or more near earth asteriods rich in metals.
+The small dream is simpl making a program that outputs a date for an optimal launch and recovery. 
+
+
+
